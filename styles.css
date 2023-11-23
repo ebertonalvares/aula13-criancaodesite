@@ -3,7 +3,8 @@
     margin: 0;
     box-sizing: border-box;
     outline: 0;
-
+    color: rgb(255, 255, 255);
+    background-color: black;
 }
 body{
     width: 100%;
@@ -15,25 +16,27 @@ body{
     
 }
 #lista-menu{
+    
     list-style: none;
-    background-color: aquamarine;
+    background-color: rgb(9, 29, 117);
     display: grid;
-    grid-template-columns: repeat(3, 20%) 60%;
+    grid-template-columns: 20% 20% 20% 60%;
       
 }
 .item-menu{
+    padding: 0;
+    margin: 0;
     background-color: black;
-    border-radius: 50%;
-    color: white;
+    border-radius: 10px;
+    
     
 
 }
 #lista-footer{
     list-style: none;
-    background-color: blueviolet;
     display: grid;
     grid-template-columns: repeat(4, 30%);
-    position: absolute;
+    position: fixed;
     width: 100%;
     bottom: 0;
     padding: 10px;
@@ -44,4 +47,27 @@ body{
     padding: 10px;
     
 }
-
+.underline {
+    text-decoration: underline pink;
+}
+picture>img{
+    border-radius: 50%;
+    fill: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+}
+h1{
+    color: rgb(255, 255, 255);
+    
+}
+.text-pink{
+    color: pink;
+}
+hr{
+    width: 30%;
+}
+.hrlado{
+    width: 50%;
+    margin: 20px auto; /* Centraliza a linha horizontal */
+    margin-left: 50%;
+     
+}
